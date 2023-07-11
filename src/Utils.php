@@ -7,3 +7,9 @@ function reverseString(string $string): string
 {
     return implode(array_reverse(str_split($string)));
 }
+
+//принимает два массива, исключает из первого те значения, которые содержатся во втором и возвращает новый массив
+function without(array $collection, array $values = []): array
+{
+    return array_values(array_diff($collection, $values));
+}
