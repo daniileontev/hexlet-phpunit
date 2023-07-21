@@ -19,5 +19,3 @@ function gt(int $num1, int $num2): bool
 {
     return $num1 > $num2;
 }
-
-
